@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <NavBarMain />
-      Product
+      <div className="text-center text-2xl">Product</div>
       <div className="flex flex-col gap-2 pt-4 w-max">
           {["tablets", "notebooks", "pcs", "notebooks"].map((item) => (
             <span key={item} className="hover:bg-gray-200 px-2 py-1 rounded-md">
